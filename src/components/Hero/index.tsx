@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 
-export default function Header() {
+export default function Hero() {
   return (
     <>
       <div className={styles.container}>

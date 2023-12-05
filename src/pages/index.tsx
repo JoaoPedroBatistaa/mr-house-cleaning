@@ -1,5 +1,6 @@
 import Head from "next/head";
 
+import Form from "../components/Form";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
@@ -19,6 +20,7 @@ export default function Home() {
 
       <Header></Header>
       <Hero></Hero>
+      <Form></Form>
     </>
   );
 }
