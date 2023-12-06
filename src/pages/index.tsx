@@ -1,9 +1,12 @@
 import Head from "next/head";
 
+import About from "../components/About";
 import Form from "../components/Form";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-
+import OurServices from "../components/OurServices";
+import Power from "../components/Power";
+import Separetor from "../components/Separetor";
 export default function Home() {
   return (
     <>
@@ -21,6 +24,10 @@ export default function Home() {
       <Header></Header>
       <Hero></Hero>
       <Form></Form>
+      <Separetor></Separetor>
+      <Power></Power>
+      <About></About>
+      <OurServices></OurServices>
     </>
   );
 }

@@ -26,7 +26,7 @@
   color: #fff;
 
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 600;
 
   font-family: "Syne", sans-serif;
 
@@ -115,6 +115,24 @@
   background-color: #000;
 }
 
+.inputField:-webkit-autofill,
+.inputField:-webkit-autofill:hover,
+.inputField:-webkit-autofill:focus,
+.inputField:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #000000 inset;
+  box-shadow: 0 0 0px 1000px #00000000 inset;
+  -webkit-text-fill-color: #a900d3 !important;
+}
+
+.selectField:-webkit-autofill,
+.selectField:-webkit-autofill:hover,
+.selectField:-webkit-autofill:focus,
+.selectField:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0px 1000px #00000000 inset;
+  box-shadow: 0 0 10px 1000px #00000000 inset;
+  -webkit-text-fill-color: #a900d3 !important;
+}
+
 .submitButton {
   display: flex;
   align-items: center;
@@ -140,6 +158,19 @@
     cursor: pointer;
     animation: pulse 1.5s infinite;
   }
+}
+
+.required {
+  color: #ff0000;
+
+  font-family: "Syne", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+
+  text-align: center;
 }
 
 @media (max-width: 1440px) {
