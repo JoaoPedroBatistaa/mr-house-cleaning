@@ -132,8 +132,19 @@
   filter: blur(64px);
 }
 
+@media screen and (min-width: 2100px) {
+  .container {
+    background-image: url("/heroUltra.png");
+    border-right: 1px solid #000;
+
+    margin-right: -0.2rem;
+  }
+}
+
 @media (max-width: 1440px) {
   .container {
+    background-image: url("/heroSimple.png");
+
     padding-left: 10rem;
     padding-right: 10rem;
   }
