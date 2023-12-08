@@ -1,9 +1,10 @@
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export default function Hero() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="Home">
         <div className={styles.leftContainer}>
           <p className={styles.title}>
             Next Weave, a sua jornada de Sucesso começa aqui
@@ -17,10 +18,14 @@ export default function Hero() {
           </p>
 
           <div className={styles.buttonsContainer}>
-            <button className={styles.ctaButton}>
-              CONTRATAR NOSSA EMPRESA
-            </button>
-            <button className={styles.ourButton}>NOSSOS SERVIÇOS</button>
+            <Link href={"/#Form"}>
+              <button className={styles.ctaButton}>
+                CONTRATAR NOSSA EMPRESA
+              </button>
+            </Link>
+            <Link href={"/#Services"}>
+              <button className={styles.ourButton}>NOSSOS SERVIÇOS</button>
+            </Link>
           </div>
         </div>
 

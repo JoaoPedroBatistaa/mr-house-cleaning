@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export default function OurServices() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="Services">
         <div className={styles.leftContainer}>
           <div className={styles.subTitleContainer}>
             <img src="/lamp.svg" alt="" />

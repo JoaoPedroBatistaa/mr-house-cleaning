@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export default function Contract() {
@@ -30,9 +31,11 @@ export default function Contract() {
                 contato com você.
               </p>
 
-              <button className={styles.ctaButton}>
-                CONTRATAR NOSSA EMPRESA
-              </button>
+              <Link href={"/#Form"}>
+                <button className={styles.ctaButton}>
+                  CONTRATAR NOSSA EMPRESA
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -71,9 +74,11 @@ export default function Contract() {
                   <br /> Sua satisfação é completa e assegurada. <br />
                 </p>
 
-                <button className={styles.ctaButton}>
-                  CONTRATAR NOSSA EMPRESA
-                </button>
+                <Link href={"/#Form"}>
+                  <button className={styles.ctaButton}>
+                    CONTRATAR NOSSA EMPRESA
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

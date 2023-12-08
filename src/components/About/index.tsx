@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 export default function About() {
   return (
     <>
-      <div className={styles.container}>
+      <div className={styles.container} id="About">
         <p className={styles.title}>Sobre nós</p>
 
         <hr className={styles.separetor} />

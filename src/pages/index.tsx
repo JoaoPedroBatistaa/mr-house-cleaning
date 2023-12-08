@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import About from "../components/About";
 import Contract from "../components/Contract";
+import Footer from "../components/Footer";
 import Form from "../components/Form";
 import Gains from "../components/Gains";
 import Header from "../components/Header";
@@ -33,6 +34,7 @@ export default function Home() {
       <Gains></Gains>
       <Contract></Contract>
       <Separetor></Separetor>
+      <Footer></Footer>
     </>
   );
 }
