@@ -1,7 +1,9 @@
 import Head from "next/head";
 
 import About from "../components/About";
+import Contract from "../components/Contract";
 import Form from "../components/Form";
+import Gains from "../components/Gains";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import OurServices from "../components/OurServices";
@@ -28,6 +30,9 @@ export default function Home() {
       <Power></Power>
       <About></About>
       <OurServices></OurServices>
+      <Gains></Gains>
+      <Contract></Contract>
+      <Separetor></Separetor>
     </>
   );
 }
