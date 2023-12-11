@@ -246,3 +246,76 @@
     height: 36rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+
+    flex-direction: column;
+  }
+
+  .subTitleContainer {
+    img {
+      width: 1rem;
+    }
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 24px;
+
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .separetor {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .attention {
+    padding: 3rem 2rem;
+  }
+
+  .attentionDown {
+    padding: 3rem 2rem;
+
+    height: auto;
+  }
+
+  .attentionBodyDown {
+    flex-direction: column;
+  }
+
+  .attentionBody {
+    flex-direction: column;
+  }
+
+  .rightAttention {
+    padding-left: 0;
+
+    margin-top: 2rem;
+  }
+
+  .ctaButton {
+    font-size: 10px;
+
+    margin-top: 3rem;
+  }
+
+  .infoContainer {
+    flex-direction: column;
+  }
+}

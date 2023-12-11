@@ -162,3 +162,63 @@
     font-size: 48px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .services {
+    p {
+      font-size: 12px;
+    }
+
+    img {
+      width: 1.5rem;
+      margin-left: 1rem;
+    }
+
+    hr {
+      width: 70%;
+    }
+
+    padding: 1rem 1.5rem;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .meta {
+    flex-direction: column;
+  }
+
+  .metaItem {
+    height: 16rem;
+  }
+
+  .metaValue {
+    font-size: 36px;
+  }
+
+  .metaDescription {
+    font-size: 20px;
+  }
+
+  .separetor {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+}

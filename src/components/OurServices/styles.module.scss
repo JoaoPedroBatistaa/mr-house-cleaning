@@ -144,3 +144,61 @@
     padding-right: 10rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    flex-direction: column;
+  }
+
+  .subTitleContainer {
+    img {
+      width: 1rem;
+    }
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  .leftContainer {
+    width: 100%;
+  }
+
+  .rightContainer {
+    width: 100%;
+
+    padding-left: 0;
+
+    margin-top: 3rem;
+  }
+
+  .title {
+    font-size: 32px;
+
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .titleService {
+    max-width: 80%;
+  }
+
+  .descriptionService {
+    max-width: 80%;
+  }
+
+  .serviceSeparetor {
+    max-width: 80%;
+  }
+}

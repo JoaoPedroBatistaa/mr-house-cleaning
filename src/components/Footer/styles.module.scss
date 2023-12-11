@@ -84,6 +84,10 @@
   }
 }
 
+.footerMobile {
+  display: none;
+}
+
 @media (max-width: 1440px) {
   .container {
     padding-left: 10rem;
@@ -92,5 +96,81 @@
 
   .title {
     max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+    flex-direction: column;
+  }
+
+  .subTitleContainer {
+    img {
+      width: 1rem;
+    }
+  }
+
+  .subTitle {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 26px;
+
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 12px;
+
+    max-width: 100%;
+  }
+
+  .separetor {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .footerMobile {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    img {
+      width: 12rem;
+
+      margin-top: 5rem;
+    }
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .infosContent {
+    display: flex;
+    flex-direction: row;
+
+    gap: 4rem;
+  }
+
+  .leftInfo {
+    width: 50%;
+  }
+
+  .rightInfo {
+    max-width: 50%;
   }
 }
