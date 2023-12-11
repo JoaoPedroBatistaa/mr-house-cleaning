@@ -186,6 +186,13 @@
   gap: 3rem;
 }
 
+@media screen and (min-width: 2100px) {
+  .container {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .container {
     height: 55px;

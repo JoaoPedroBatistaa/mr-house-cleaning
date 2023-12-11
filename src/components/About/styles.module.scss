@@ -148,6 +148,13 @@
   max-width: 30rem;
 }
 
+@media screen and (min-width: 2100px) {
+  .container {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+}
+
 @media (max-width: 1440px) {
   .container {
     padding-left: 10rem;
