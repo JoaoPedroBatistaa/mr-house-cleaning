@@ -25,6 +25,26 @@
   }
 }
 
+@keyframes backgroundFadeOne {
+  0%,
+  100% {
+    background-image: url("/hero.png");
+  }
+  50% {
+    background-image: url("/hero-light.png");
+  }
+}
+
+@keyframes backgroundFadeOneTwo {
+  0%,
+  100% {
+    background-image: url("/heroSimple.png");
+  }
+  50% {
+    background-image: url("/heroSimple-light.png");
+  }
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -34,12 +54,12 @@
   padding-right: 15rem;
   padding-bottom: 13rem;
 
-  background-image: url("/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
   background-color: #000;
+
+  animation: backgroundFadeOne 5s infinite ease-in-out;
 }
 
 .leftContainer {
@@ -125,20 +145,40 @@
 }
 
 @media screen and (min-width: 2100px) {
+  @keyframes backgroundFadeUltra {
+    0%,
+    100% {
+      background-image: url("/heroUltra.png");
+    }
+    50% {
+      background-image: url("/heroUltra-light.png");
+    }
+  }
+
   .container {
     background-image: url("/heroUltra.png");
     border-right: 1px solid #000;
-
     margin-right: -0.2rem;
+    animation: backgroundFadeUltra 5s infinite ease-in-out;
   }
 }
 
 @media (max-width: 1440px) {
+  @keyframes backgroundFadeSimple {
+    0%,
+    100% {
+      background-image: url("/heroSimple.png");
+    }
+    50% {
+      background-image: url("/heroSimple-light.png");
+    }
+  }
+
   .container {
     background-image: url("/heroSimple.png");
-
     padding-left: 10rem;
     padding-right: 10rem;
+    animation: backgroundFadeSimple 5s infinite ease-in-out;
   }
 
   .leftContainer {
@@ -147,13 +187,23 @@
 }
 
 @media screen and (max-width: 768px) {
+  @keyframes backgroundFadeMobile {
+    0%,
+    100% {
+      background-image: url("/heroMobile.png");
+    }
+    50% {
+      background-image: url("/heroMobile-light.png");
+    }
+  }
+
   .container {
     padding-top: 16rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 8rem;
-
     background-image: url("/heroMobile.png");
+    animation: backgroundFadeMobile 5s infinite ease-in-out;
   }
 
   .rightContainer {

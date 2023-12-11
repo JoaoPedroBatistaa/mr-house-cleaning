@@ -25,7 +25,7 @@ export default function OurServices() {
             <p className={styles.titleService}>Sites de Alto Desempenho</p>
 
             <p className={styles.descriptionService}>
-              Tenha um site para o seu negócio com alto desempenhoe
+              Tenha um site para o seu negócio com alto desempenho e
               esteticamente impecável.
             </p>
 
@@ -61,7 +61,7 @@ export default function OurServices() {
             </p>
 
             <p className={styles.descriptionService}>
-              Use o marketing para atrair ainda mais clientes para o seunegócio
+              Use o marketing para atrair ainda mais clientes para o seu negócio
               e aumentar o seu faturamento mensal.
             </p>
 
