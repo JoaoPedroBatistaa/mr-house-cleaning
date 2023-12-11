@@ -67,3 +67,28 @@
     max-width: 80%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+
+  .title {
+    font-size: 24px;
+    max-width: 100%;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .separetor {
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+}

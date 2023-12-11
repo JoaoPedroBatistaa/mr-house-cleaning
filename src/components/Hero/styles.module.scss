@@ -158,3 +158,47 @@
     margin-top: -60%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-top: 16rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 8rem;
+
+    background-image: url("/heroMobile.png");
+  }
+
+  .rightContainer {
+    display: none;
+  }
+
+  .leftContainer {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .buttonsContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+
+    margin-top: 0.5rem;
+  }
+
+  .ctaButton {
+    font-size: 12px;
+    padding: 0.8rem 2.5rem;
+  }
+
+  .ourButton {
+    font-size: 12px;
+    padding: 0.8rem 2.5rem;
+  }
+}

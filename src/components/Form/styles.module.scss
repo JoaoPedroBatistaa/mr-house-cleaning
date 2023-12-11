@@ -183,3 +183,39 @@
     max-width: 55%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    padding-bottom: 8rem;
+    padding-top: 0;
+  }
+
+  .title {
+    font-size: 24px;
+    max-width: 100%;
+  }
+
+  .separetor {
+    margin-top: 3rem;
+  }
+
+  .formContent {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .inputField {
+    font-size: 10px;
+  }
+
+  .selectField {
+    font-size: 10px;
+  }
+
+  .submitButton {
+    font-size: 12px;
+  }
+}

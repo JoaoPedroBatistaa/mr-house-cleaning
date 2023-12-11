@@ -91,3 +91,22 @@
     box-shadow: 0px 0px 15px #a70080b7;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 55px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .ctaButton {
+    display: none;
+  }
+
+  .logo {
+    width: 10rem;
+    margin-left: -2rem;
+  }
+}

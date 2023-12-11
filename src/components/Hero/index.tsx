@@ -7,7 +7,7 @@ export default function Hero() {
       <div className={styles.container} id="Home">
         <div className={styles.leftContainer}>
           <p className={styles.title}>
-            Next Weave, a sua jornada de Sucesso começa aqui
+            Next Weave, sua jornada de Sucesso começa aqui
           </p>
 
           <p className={styles.description}>
