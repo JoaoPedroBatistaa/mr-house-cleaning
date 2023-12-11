@@ -121,17 +121,7 @@
 }
 
 .light {
-  background-color: rgba(169, 0, 211, 0.349);
-  border: 120px solid rgba(224, 102, 255, 0.856);
-
-  border-radius: 120px;
-
-  margin-left: 102%;
-  margin-top: -65%;
-
-  animation: pulsate 2s ease-out infinite;
-
-  filter: blur(64px);
+  display: none;
 }
 
 @media screen and (min-width: 2100px) {
@@ -153,11 +143,6 @@
 
   .leftContainer {
     width: 55%;
-  }
-
-  .light {
-    margin-left: 110%;
-    margin-top: -60%;
   }
 }
 
