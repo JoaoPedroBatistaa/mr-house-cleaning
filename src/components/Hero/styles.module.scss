@@ -119,15 +119,15 @@
 }
 
 .light {
-  background-color: rgba(169, 0, 211, 0.096);
-  border: 120px solid rgba(204, 0, 255, 0.664);
+  background-color: rgba(169, 0, 211, 0.349);
+  border: 120px solid rgba(231, 135, 255, 0.76);
 
   border-radius: 120px;
 
   margin-left: 102%;
-  margin-top: -60%;
+  margin-top: -65%;
 
-  animation: pulsate 3s ease-out infinite;
+  animation: pulsate 2s ease-out infinite;
 
   filter: blur(64px);
 }
