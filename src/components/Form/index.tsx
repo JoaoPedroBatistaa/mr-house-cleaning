@@ -97,7 +97,7 @@ export default function Form() {
       <div className={styles.container} id="Form">
         <ToastContainer theme="dark"></ToastContainer>
         <p className={styles.title}>
-          Preencha o formulário para ter nossa equipe atuando na sua empresa:{" "}
+          Quer ter a nossa equipe na sua empresa? Preencha o formulário
         </p>
 
         <hr className={styles.separetor} />
@@ -233,7 +233,7 @@ export default function Form() {
               {loading ? (
                 <Lottie options={defaultOptions} height={100} width={100} />
               ) : (
-                <p>CONTRATAR NOSSA EMPRESA</p>
+                <p>CONTRATAR A NEXT</p>
               )}
             </div>
           </div>

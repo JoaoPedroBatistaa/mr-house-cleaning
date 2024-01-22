@@ -5,19 +5,19 @@ export default function Power() {
     <>
       <div className={styles.container}>
         <p className={styles.title}>
-          VOCÊ ACHA QUE TEM USADO TODO O <span>PODER DO DIGITAL</span> AO SEU
-          FAVOR?{" "}
+          VOCÊ TEM USADO O <span>PODER DO DIGITAL</span> AO SEU FAVOR?{" "}
         </p>
 
         <hr className={styles.separetor} />
 
         <p className={styles.description}>
-          Se a resposta for não, estamos aqui para te ajudar. Nossa agência foi
-          criada para ajudar empreendedores a aumentarem suas vendas e nunca
-          pararem de crescer. <br /> <br /> Estamos aqui para mudar
-          completamente o posicionamento da sua empresa dentro do mercado
-          digital, aumentar o seu faturamento mensal e fazer sua empresa crescer
-          exponencialmente.
+          Nossa agência foi criada para empreendedores. Eleve o seu faturamento
+          de forma lucrativa e eficiente e nunca pare de crescer.
+          <br />
+          <br />
+          Nosso foco é aprimorar o posicionamento da sua empresa dentro do seu
+          nicho de mercado. Otimize os processos da sua empresa e aumente suas
+          vendas reduzindo seus custos.
         </p>
       </div>
     </>

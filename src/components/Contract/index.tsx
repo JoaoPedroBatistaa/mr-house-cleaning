@@ -26,15 +26,12 @@ export default function Contract() {
 
             <div className={styles.rightAttention}>
               <p className={styles.description}>
-                Muito simples, basta clicar no botão abaixo e preencher o
-                formulário para que nossa equipe de especialistas entre em
-                contato com você.
+                Muito simples, basta preencher o formulario e a nossa equipe de
+                especialistas entrará em contato com voce.
               </p>
 
               <Link href={"/#Form"}>
-                <button className={styles.ctaButton}>
-                  CONTRATAR NOSSA EMPRESA
-                </button>
+                <button className={styles.ctaButton}>CONTRATAR A NEXT</button>
               </Link>
             </div>
           </div>
@@ -75,9 +72,7 @@ export default function Contract() {
                 </p>
 
                 <Link href={"/#Form"}>
-                  <button className={styles.ctaButton}>
-                    CONTRATAR NOSSA EMPRESA
-                  </button>
+                  <button className={styles.ctaButton}>CONTRATAR A NEXT</button>
                 </Link>
               </div>
             </div>

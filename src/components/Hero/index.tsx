@@ -11,17 +11,16 @@ export default function Hero() {
           </p>
 
           <p className={styles.description}>
-            Bem-vindo à Next Weave, onde a inovação se une à excelência para
-            impulsionar seu negócio no cenário digital. Nossa fórmula única
-            combina criatividade, tecnologia avançada e especialização para
-            moldar sua jornada rumo ao sucesso online.
+            Bem-vindo a Next Weave, um ambiente onde a inovação e excelência se
+            unem para alavancar seu negócio. Nossa estratégia é composta por
+            pilares baseados na criatividade, tecnologia avançada e o
+            profissionalismo necessario para estruturar seu percurso rumo ao
+            sucesso.
           </p>
 
           <div className={styles.buttonsContainer}>
             <Link href={"/#Form"}>
-              <button className={styles.ctaButton}>
-                CONTRATAR NOSSA EMPRESA
-              </button>
+              <button className={styles.ctaButton}>CONTRATAR A NEXT</button>
             </Link>
             <Link href={"/#Services"}>
               <button className={styles.ourButton}>NOSSOS SERVIÇOS</button>

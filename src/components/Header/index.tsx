@@ -73,7 +73,7 @@ export default function Header() {
         <img src="/logo.svg" alt="Next Weave logo" className={styles.logo} />
 
         <Link href={"/#Form"}>
-          <button className={styles.ctaButton}>CONTRATAR NOSSA EMPRESA</button>
+          <button className={styles.ctaButton}>CONTRATAR A NEXT</button>
         </Link>
       </div>
     </>

@@ -24,8 +24,9 @@ export default function Gains() {
         <div className={styles.infoContainer}>
           <div className={styles.leftContainer}>
             <p className={styles.description}>
-              Para replicar o que a Next Weave faz pela sua empresa, você
-              precisaria de no mínimo, 5 funcionários. <br />
+              Para ter uma equipe própria na sua empresa para fazer o mesmo
+              trabalho da Next, seriam necessários ao menos 5 funcionários.
+              <br />
               <br /> <span>• </span> Um Copywriter;
               <br />
               <br /> <span>• </span> Um Designer Gráfico;
@@ -35,9 +36,9 @@ export default function Gains() {
               <br /> <span>• </span> Um Estrategista Digital;
               <br />
               <br /> <span>• </span> Um Engenheiro de Software; <br />
-              <br /> Com a Next Weave você consegue suprir esses profissionais
-              através de um especialista na área! E ainda poupa tempo e dinheiro
-              por não se preocupar com essa mão de obra.
+              <br /> A Next consegue suprir esses custos. A nossa equipe conta
+              com profissionais especializados em cada uma das áreas listadas,
+              fazendo você poupar dinheiro, tempo e estresse.
             </p>
           </div>
 

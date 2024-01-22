@@ -9,12 +9,14 @@ export default function About() {
         <hr className={styles.separetor} />
 
         <p className={styles.description}>
-          A Next Weave é uma agência completa de marketing especializada em
-          acelerar negócios, atrair mais pessoas e ter uma estratégia montada
-          para convertê-los em clientes. <br />
-          <br /> Nós acreditamos em ideias e soluções criativas para qualquer
-          problema dentro da sua empresa, através de pesquisas de mercado que
-          nos guiam em tudo que fazemos.
+          A Next Weave é uma agência de marketing completa, especializada em
+          impulsionar negócios ao atrair um maior número de leads por meio de
+          uma estratégia focada na conversão eficiente destes em clientes.{" "}
+          <br />
+          <br /> Nós acreditamos em ideias e soluções criativas para superar os
+          desafios dentro da sua empresa, com decisões baseadas por pesquisas de
+          mercado que guiam todas as nossas ações, garantindo uma abordagem
+          fundamentada em dados para cada situação.
         </p>
 
         <div className={styles.services}>
