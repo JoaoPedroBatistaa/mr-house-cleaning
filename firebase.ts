@@ -22,12 +22,12 @@ import {
 } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+    apiKey: "AIzaSyBtMYBxAzY1kT3Fy1lK2sEYhb-c5tU7q8s",
+    authDomain: "mr-home-cleaning.firebaseapp.com",
+    projectId: "mr-home-cleaning",
+    storageBucket: "mr-home-cleaning.appspot.com",
+    messagingSenderId: "764129205107",
+    appId: "1:764129205107:web:0d27cdcb193eea51ab0306"
 };
 
 const firebase = initializeApp(firebaseConfig);
