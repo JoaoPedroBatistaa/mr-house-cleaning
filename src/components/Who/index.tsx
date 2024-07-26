@@ -14,8 +14,8 @@ export default function Hero() {
           <p className={styles.description}>
             Since 2016, M&R has been the trusted choice for residential cleaning
             services in the region. Founded with the mission to deliver
-            unparalleled quality and a touch of elegance in every service, we've
-            become an essential part of our customers' lives.
+            unparalleled quality and a touch of elegance in every service, we ve
+            become an essential part of our customers lives.
           </p>
 
           <p className={styles.subtitle}>Our mission</p>

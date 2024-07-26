@@ -14,7 +14,7 @@ export default function Hero() {
           <p className={styles.subtitle}>Unmatched Quality: </p>
 
           <p className={styles.description}>
-            We're committed to the highest standards of quality in every service
+            We re committed to the highest standards of quality in every service
             we offer.
           </p>
 

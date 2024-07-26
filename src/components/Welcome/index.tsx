@@ -10,7 +10,7 @@ export default function Hero() {
           </p>
 
           <p className={styles.description}>
-            You deserve a spotless home that's worry-free. At M&R, we're
+            You deserve a spotless home that s worry-free. At M&R, we re
             dedicated to making that a reality for you.{" "}
           </p>
         </div>
