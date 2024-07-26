@@ -20,10 +20,10 @@
   padding-left: 15rem;
   padding-right: 15rem;
 
-  height: 5rem;
+  height: 6rem;
 
-  background-color: #00000073;
-  border-bottom: 1px solid #ffffff49;
+  background-color: #ffffff13;
+  border-bottom: 1px solid #a8a8a849;
 
   position: fixed;
   top: 0;
@@ -50,25 +50,25 @@
 }
 
 .navItem {
-  color: #9f9f9f;
-  font-family: "Syne", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
+  color: #353535;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 
   &:hover {
-    color: #fff;
+    color: #00baa1;
     cursor: pointer;
   }
 }
 
 .navItemS {
-  color: #9f9f9f;
-  font-family: "Syne", sans-serif;
+  color: #353535;
+  font-family: "Noto Sans", sans-serif;
   font-size: 20px;
   font-weight: 500;
 
   &:hover {
-    color: #fff;
+    color: #00baa1;
     cursor: pointer;
   }
 }
@@ -80,56 +80,48 @@
 .logo {
   align-self: center;
 
-  width: 13.7rem;
+  height: 70%;
+  width: auto;
 }
 
 .ctaButton {
   padding: 0.2rem 1.5rem;
 
-  color: #fff;
-  font-family: "Syne", sans-serif;
-  font-size: 12px;
-  font-weight: 500;
+  color: #353535;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 
-  border: 1px solid #fff;
-  border-radius: 25px;
+  border-radius: 16px;
+  border: none;
 
-  height: 2.5rem;
+  height: 3.5rem;
 
-  box-shadow: 0px 0px 10px #a700808a;
-
-  background-color: #00000000;
+  background-color: #ffe16d;
 
   &:hover {
     cursor: pointer;
-    animation: pulse 1.5s infinite;
-
-    box-shadow: 0px 0px 15px #a70080b7;
   }
 }
 
 .sideButton {
   padding: 0.8rem 1.5rem;
 
-  color: #fff;
-  font-family: "Syne", sans-serif;
+  color: #353535;
+  font-family: "Noto Sans", sans-serif;
   font-size: 12px;
   font-weight: 500;
 
   border: 1px solid #fff;
-  border-radius: 25px;
+  border-radius: 16px;
 
-  box-shadow: 0px 0px 10px #a700808a;
-
-  background-color: #00000000;
+  background-color: #ffe16d;
 
   margin-bottom: 2rem;
 
   &:hover {
     cursor: pointer;
     animation: pulse 1.5s infinite;
-
-    box-shadow: 0px 0px 15px #a70080b7;
   }
 }
 
@@ -164,7 +156,7 @@
   justify-content: space-between;
 
   width: 90%;
-  background-color: #000;
+  background-color: #fcf7e4;
 
   padding: 2rem 2rem;
   box-shadow: 10px 0px 15px rgba(0, 0, 0, 0.5);
@@ -200,11 +192,11 @@
   }
 
   .ctaButton {
-    font-size: 10px;
+    font-size: 16px;
   }
 
   .navItem {
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 
@@ -234,8 +226,7 @@
   }
 
   .logo {
-    width: 10rem;
-
-    margin-left: 40%;
+    width: auto;
+    margin-left: 85%;
   }
 }

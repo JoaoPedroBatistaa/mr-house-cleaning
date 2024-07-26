@@ -14,12 +14,12 @@
   display: flex;
   flex-direction: column;
 
-  padding-top: 9rem;
+  padding-top: 6rem;
   padding-left: 15rem;
   padding-right: 15rem;
   padding-bottom: 7.5rem;
 
-  background-color: #000;
+  background-color: #1a1919;
 }
 
 .title {
@@ -74,13 +74,21 @@
 .footer {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
+
+  p {
+    color: #656565;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    font-family: "Noto Sans", sans-serif;
+  }
 
   img {
     width: 10rem;
     height: auto;
-
-    margin-top: 1.5rem;
   }
 }
 
@@ -188,10 +196,6 @@
     margin-bottom: 1rem;
   }
 
-  .footer {
-    display: none;
-  }
-
   .footerMobile {
     display: flex;
     flex-direction: column;
@@ -222,5 +226,13 @@
 
   .rightInfo {
     max-width: 50%;
+  }
+
+  .footer {
+    flex-direction: column;
+
+    text-align: center;
+
+    gap: 3rem;
   }
 }

@@ -10,151 +10,299 @@
   }
 }
 
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .container {
-  display: flex;
-  flex-direction: column;
-
-  padding-top: 2rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
-  padding-bottom: 13rem;
-
-  background-color: #000;
-}
-
-.title {
-  color: #fff;
-
-  font-size: 40px;
-  font-weight: 600;
-
-  font-family: "Syne", sans-serif;
-
-  max-width: 45%;
-}
-
-.separetor {
-  color: #d1d1d1;
-
-  margin-top: 5rem;
-  margin-bottom: 2rem;
-}
-
-.formContent {
   display: flex;
   flex-direction: row;
 
-  text-align: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-bottom: 9rem;
+
+  background-color: #fbf6e4;
 
   gap: 4rem;
 }
 
-.leftForm {
+.leftContainer {
   display: flex;
   flex-direction: column;
 
   gap: 1.5rem;
 
-  width: 100%;
+  width: 60%;
+  height: 100%;
+
+  border-radius: 2.2rem;
+
+  padding: 4rem 3rem;
+
+  background-color: #353535;
+
+  input {
+    background-color: #1e1e1e;
+    color: #656565;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    font-family: "Noto Sans", sans-serif;
+
+    padding: 1rem 2rem;
+
+    border: 1px solid #656565;
+    border-radius: 1rem;
+
+    width: 100%;
+  }
+
+  select {
+    background-color: #1e1e1e;
+    color: #656565;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    font-family: "Noto Sans", sans-serif;
+
+    padding: 1rem 2rem;
+
+    border: 1px solid #656565;
+    border-radius: 1rem;
+
+    width: 100%;
+  }
+
+  textArea {
+    background-color: #1e1e1e;
+    color: #656565;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    font-family: "Noto Sans", sans-serif;
+
+    padding: 1rem 2rem;
+
+    border: 1px solid #656565;
+    border-radius: 1rem;
+
+    width: 100%;
+
+    min-height: 12rem;
+  }
 }
 
-.rightForm {
+.rightContainer {
   display: flex;
   flex-direction: column;
 
-  width: 100%;
-
   gap: 1.5rem;
+
+  width: 40%;
+  height: 100%;
+
+  border-radius: 2.2rem;
+
+  padding: 4rem 3rem;
+
+  background-color: #353535;
 }
 
-.inputField {
-  color: #d1d1d1;
+.title {
+  color: #00baa1;
 
-  font-family: "Syne", sans-serif;
-  font-size: 16px;
+  font-size: 32px;
+  font-weight: 600;
+
+  font-family: "Noto Sans", sans-serif;
+
+  span {
+    color: #00baa1;
+  }
+}
+
+.subtitle {
+  color: #d9d9d9;
+
+  font-size: 24px;
   font-weight: 500;
 
+  font-family: "Noto Sans", sans-serif;
+
+  span {
+    color: #00baa1;
+  }
+}
+
+.description {
+  color: #656565;
+
+  font-size: 16px;
+  font-weight: 400;
+
+  font-family: "Noto Sans", sans-serif;
+}
+
+.line {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  background-color: #949494;
+  color: #656565;
+  border-color: #9b9b9b;
+}
+
+/* styles.module.scss */
+
+/* Estilos para o contêiner dos packs */
+.packs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.pack,
+.packActive {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  width: calc(25% - 1rem); /* Ajuste para 4 packs por linha */
+  cursor: pointer;
   text-align: center;
-
-  padding: 1rem 0;
-
-  border-radius: 40px;
-
-  background-color: #00000000;
-
-  border: 1px solid #d1d1d1;
 }
 
-.selectField {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  color: #fff;
-
-  font-family: "Syne", sans-serif;
+.pack p,
+.packActive p {
   font-size: 16px;
-  font-weight: 500;
-
-  text-align: center !important;
-
-  padding: 1rem 0;
-
-  border-radius: 40px;
-
-  background-color: #00000000;
-
-  border: 1px solid #d1d1d1;
-
-  background-image: url("/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: right 20px center;
-  background-size: 12px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
 }
 
-.selectField option {
-  color: #d1d1d1;
-  background-color: #000;
+.pack p {
+  color: #656565;
 }
 
-.inputField:-webkit-autofill,
-.inputField:-webkit-autofill:hover,
-.inputField:-webkit-autofill:focus,
-.inputField:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0px 1000px #000000 inset;
-  box-shadow: 0 0 0px 1000px #00000000 inset;
-  -webkit-text-fill-color: #a900d3 !important;
+.packActive p {
+  color: #00baa1;
 }
 
-.selectField:-webkit-autofill,
-.selectField:-webkit-autofill:hover,
-.selectField:-webkit-autofill:focus,
-.selectField:-webkit-autofill:active {
-  -webkit-box-shadow: 0 0 0px 1000px #00000000 inset;
-  box-shadow: 0 0 10px 1000px #00000000 inset;
-  -webkit-text-fill-color: #a900d3 !important;
+.packActive img {
+  border: 3px solid #00baa1;
+  border-radius: 24px;
 }
 
-.submitButton {
+/* Estilos específicos para dispositivos móveis */
+@media (max-width: 768px) {
+  .pack,
+  .packActive {
+    width: calc(
+      50% - 1rem
+    ); /* Ajuste para 2 packs por linha em dispositivos móveis */
+  }
+}
+
+.inputs {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
 
+  gap: 1rem;
+}
+
+.total {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    width: 15%;
+    height: auto;
+  }
+
+  .label {
+    color: #d9d9d9;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    font-family: "Noto Sans", sans-serif;
+
+    max-width: 30%;
+  }
+
+  .value {
+    color: #00dc3e;
+
+    font-size: 32px;
+    font-weight: 600;
+
+    font-family: "Noto Sans", sans-serif;
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+
+  gap: 2rem;
+
+  margin-top: 1rem;
+}
+
+.ctaButton {
+  padding: 0.2rem 1.5rem;
+
+  color: #353535;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+  border-radius: 16px;
+  border: none;
+
+  height: 3.5rem;
+
+  background-color: #ffe16d;
+
+  padding: 0 2.5rem;
+
+  margin-top: 2.5rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.ourButton {
   padding: 1rem 2.5rem;
 
-  color: #fff;
+  color: #d1d1d1;
   font-family: "Syne", sans-serif;
   font-size: 16px;
   font-weight: 500;
 
-  border: 1px solid #a900d3;
+  border: 1px solid #d1d1d1;
   border-radius: 25px;
 
-  box-shadow: 0px 0px 15px #a7008096;
+  box-shadow: 0px 0px 10px #9494948a;
 
-  background-color: #a900d3;
-
-  max-height: 3.3rem;
+  background-color: #a900d300;
 
   &:hover {
     cursor: pointer;
@@ -162,21 +310,15 @@
   }
 }
 
-.required {
-  color: #ff0000;
-
-  font-family: "Syne", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-
-  margin-top: -0.5rem;
-  margin-bottom: -0.5rem;
-
-  text-align: center;
+.light {
+  display: none;
 }
 
 @media screen and (min-width: 2100px) {
   .container {
+    border-right: 1px solid #000;
+    margin-right: -0.2rem;
+
     padding-left: 20rem;
     padding-right: 20rem;
   }
@@ -188,8 +330,8 @@
     padding-right: 10rem;
   }
 
-  .title {
-    max-width: 55%;
+  .leftContainer {
+    width: 55%;
   }
 }
 
@@ -197,6 +339,7 @@
   .container {
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-top: 9rem;
   }
 
   .ctaButton {
@@ -212,57 +355,78 @@
   }
 
   .title {
-    font-size: 28px;
-  }
-
-  .inputField {
-    font-size: 12px;
-  }
-
-  .selectField {
-    font-size: 12px;
-  }
-
-  .submitButton {
-    font-size: 12px;
+    font-size: 46px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .container {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
 
-    padding-bottom: 8rem;
-    padding-top: 0;
+    flex-direction: column;
+  }
+
+  .rightContainer {
+    width: 100%;
+    border-radius: 1.3rem;
+
+    padding: 4rem 2rem;
+  }
+
+  .leftContainer {
+    width: 100%;
+
+    border-radius: 1.3rem;
+
+    padding: 4rem 2rem;
+
+    input {
+      font-size: 12px;
+    }
+
+    select {
+      font-size: 12px;
+    }
+
+    textArea {
+      font-size: 12px;
+      min-height: 12rem;
+    }
   }
 
   .title {
-    font-size: 24px;
-    max-width: 100%;
+    font-size: 26px;
   }
 
-  .separetor {
-    margin-top: 3rem;
+  .inputs {
+    flex-direction: column;
+
+    input {
+      font-size: 12px;
+    }
   }
 
-  .formContent {
+  .description {
+    font-size: 16px;
+  }
+
+  .buttonsContainer {
     flex-direction: column;
     gap: 1.5rem;
+
+    margin-top: 0.5rem;
   }
 
-  .inputField {
-    font-size: 10px;
-  }
-
-  .selectField {
-    font-size: 10px;
-    text-align: center;
-
-    padding-left: 2rem;
-  }
-
-  .submitButton {
+  .ctaButton {
     font-size: 12px;
+    padding: 0.8rem 2.5rem;
+  }
+
+  .ourButton {
+    font-size: 12px;
+    padding: 0.8rem 2.5rem;
   }
 }

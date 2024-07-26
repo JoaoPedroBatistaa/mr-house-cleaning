@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./styles.module.scss";
 
 export default function Hero() {
@@ -7,22 +6,17 @@ export default function Hero() {
       <div className={styles.container} id="Home">
         <div className={styles.leftContainer}>
           <p className={styles.title}>
-            Professional <span>Cleaning</span> Services in your home{" "}
+            <span>Welcome to</span> M&R Home Cleaning Services!{" "}
           </p>
 
           <p className={styles.description}>
-            Your trusted choice for cleaning your home!
+            You deserve a spotless home that's worry-free. At M&R, we're
+            dedicated to making that a reality for you.{" "}
           </p>
-
-          <div className={styles.buttonsContainer}>
-            <Link href={"/#Form"}>
-              <button className={styles.ctaButton}>Get a free quote</button>
-            </Link>
-          </div>
         </div>
 
         <div className={styles.rightContainer}>
-          <div className={styles.light}></div>
+          <img src="/welcome.jpg" alt="" />
         </div>
       </div>
     </>

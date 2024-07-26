@@ -1,20 +1,19 @@
 import Head from "next/head";
 
-import About from "../components/About";
-import Contract from "../components/Contract";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
-import Gains from "../components/Gains";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import OurServices from "../components/OurServices";
-import Power from "../components/Power";
-import Separetor from "../components/Separetor";
+import SetUsApart from "../components/SetUsApart";
+import WeOffer from "../components/WeOffer";
+import Welcome from "../components/Welcome";
+import Who from "../components/Who";
+
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Next Weave</title>
+        <title>M&R Home Cleaning</title>
         <meta name="description" content="Next Weave" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/icon.svg" />
@@ -22,18 +21,24 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <Header></Header>
       <Hero></Hero>
+      <Welcome></Welcome>
+      <Who></Who>
+      <WeOffer></WeOffer>
+      <SetUsApart></SetUsApart>
       <Form></Form>
-      <Separetor></Separetor>
-      <Power></Power>
-      <About></About>
-      <OurServices></OurServices>
-      <Gains></Gains>
-      <Contract></Contract>
-      <Separetor></Separetor>
+
       <Footer></Footer>
     </>
   );

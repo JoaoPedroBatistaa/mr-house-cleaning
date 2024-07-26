@@ -26,41 +26,29 @@ export default function Header() {
               </Link>
               <Link href={"/#About"}>
                 <p className={styles.navItemS} onClick={toggleSidebar}>
-                  Sobre Nós
+                  Reviews
                 </p>
               </Link>
               <Link href={"/#Services"}>
                 <p className={styles.navItemS} onClick={toggleSidebar}>
-                  Nosso Trabalho
+                  FAQ
                 </p>
               </Link>
               <Link href={"/#Form"}>
                 <p className={styles.navItemS} onClick={toggleSidebar}>
-                  Entrar em Contato
+                  Airbnb
                 </p>
               </Link>
             </div>
 
             <Link href={"/#Form"}>
               <button className={styles.sideButton} onClick={toggleSidebar}>
-                CONTRATAR NOSSA EMPRESA
+                Get a free quote
               </button>
             </Link>
           </div>
 
           <div className={styles.rightSide} onClick={toggleSidebar}></div>
-        </div>
-
-        <div className={styles.nav}>
-          <Link href={"/#Home"}>
-            <p className={styles.navItem}>Home</p>
-          </Link>
-          <Link href={"/#About"}>
-            <p className={styles.navItem}>Sobre Nós</p>
-          </Link>
-          <Link href={"/#Form"}>
-            <p className={styles.navItem}>Entrar em Contato</p>
-          </Link>
         </div>
 
         <img
@@ -70,10 +58,25 @@ export default function Header() {
           onClick={toggleSidebar}
         />
 
-        <img src="/logo.svg" alt="Next Weave logo" className={styles.logo} />
+        <img src="/logo.svg" alt="" className={styles.logo} />
+
+        <div className={styles.nav}>
+          <Link href={"/#Home"}>
+            <p className={styles.navItem}>Home</p>
+          </Link>
+          <Link href={"/#About"}>
+            <p className={styles.navItem}>Reviews</p>
+          </Link>
+          <Link href={"/#Form"}>
+            <p className={styles.navItem}>FAQ</p>
+          </Link>
+          <Link href={"/#Form"}>
+            <p className={styles.navItem}>Airbnb</p>
+          </Link>
+        </div>
 
         <Link href={"/#Form"}>
-          <button className={styles.ctaButton}>CONTRATAR A NEXT</button>
+          <button className={styles.ctaButton}>Get a free quote</button>
         </Link>
       </div>
     </>
