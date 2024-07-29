@@ -111,7 +111,7 @@ export default function Hero() {
     },
     {
       name: "Move In/Move Out Under 4000 sq. ft.",
-      value: 225,
+      value: 250,
       img: "/move-2000.svg",
     },
     {
@@ -126,12 +126,12 @@ export default function Hero() {
     },
     {
       name: "Deep Cleaning Under 3000 sq. ft.",
-      value: 200,
+      value: 250,
       img: "/deep-2000.svg",
     },
     {
       name: "Deep Cleaning Under 4000 sq. ft.",
-      value: 250,
+      value: 300,
       img: "/deep-2000.svg",
     },
     {
@@ -146,12 +146,12 @@ export default function Hero() {
     },
     {
       name: "Post Construction / Heavy Duty Under 3000 sq. ft.",
-      value: 225,
+      value: 275,
       img: "/post-2000.svg",
     },
     {
       name: "Post Construction / Heavy Duty Under 4000 sq. ft.",
-      value: 275,
+      value: 350,
       img: "/post-2000.svg",
     },
     { name: "Inside the Oven", value: 35, img: "/inside-oven.svg" },
@@ -165,6 +165,16 @@ export default function Hero() {
     { name: "Empty Kitchen Cabinets", value: 30, img: "/empty-kitchen.svg" },
     { name: "Garage or Patio Sweeping", value: 20, img: "/garage.svg" },
     { name: "1-10 Interior Windows", value: 60, img: "/interior-windows.svg" },
+    {
+      name: "11-20 Interior Windows",
+      value: 120,
+      img: "/interior-windows.svg",
+    },
+    {
+      name: "21-30 Interior Windows",
+      value: 180,
+      img: "/interior-windows.svg",
+    },
     { name: "In/Out Sliding Glass Door", value: 20, img: "/sliding-glass.svg" },
     { name: "Clothes Folding / per load", value: 40, img: "/clothes.svg" },
     { name: "Load of Laundry / per load", value: 20, img: "/laundry.svg" },
@@ -351,11 +361,7 @@ export default function Hero() {
             bathroom).
           </p>
 
-          <div className={styles.packs}>{renderPacks(packs.slice(0, 4))}</div>
-          <div className={styles.packs}>{renderPacks(packs.slice(4, 8))}</div>
-          <div className={styles.packs}>{renderPacks(packs.slice(8, 12))}</div>
-          <div className={styles.packs}>{renderPacks(packs.slice(12, 16))}</div>
-          <div className={styles.packs}>{renderPacks(packs.slice(16, 20))}</div>
+          <div className={styles.packs}>{renderPacks(packs)}</div>
 
           <hr className={styles.line} />
 
