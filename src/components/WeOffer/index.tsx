@@ -43,6 +43,50 @@ export default function Hero() {
             <img src="/deep-line.svg" alt="" />
           </div>
         </div>
+
+        <div className={styles.container} id="Home">
+          <div className={styles.rightContainer}>
+            <img src="/post.svg" alt="" />
+
+            <p className={styles.subtitle}>Post Construction</p>
+
+            <p className={styles.description}>
+              PACK MIMO (For Empty Homes): Includes blinds, shutters, ceiling
+              fans & blades, baseboards, frames, and doors (cleaning walls and
+              ceilings not included), inside oven, inside fridge (if empty),
+              inside cabinets & drawers (if empty). Regular cleaning includes:
+              home dusting (furniture etc.) and all floors vacuumed & mopped.
+              Bathrooms: tub, toilet, and sink area thoroughly cleaned and
+              disinfected. Kitchen: wipe down all counters, backsplash, sink
+              area, spot clean the outside of cabinets, small appliances
+              (microwave, coffee machine) in and out, bigger appliances only
+              outside (fridge, oven). Ensure water and electricity are on during
+              cleaning.
+            </p>
+
+            <img src="/deep-line.svg" alt="" />
+          </div>
+          <div className={styles.leftContainer}>
+            <img src="/movein.svg" alt="" />
+
+            <p className={styles.subtitle}>Move In/ Move Out</p>
+
+            <p className={styles.description}>
+              PACK PCHD (For Empty & Furnished Homes): Includes blinds,
+              shutters, ceiling fans, baseboards, frames, doors (cleaning walls
+              and ceilings not included), inside oven, fridge, cabinets &
+              drawers (if empty), windows & racks (if reachable). Regular
+              cleaning: dusting furniture, vacuuming & mopping floors, cleaning
+              and disinfecting tub, toilet, sink areas. Kitchen: wipe counters,
+              backsplash, sink, spot clean cabinet exteriors, clean small
+              appliances (microwave, coffee machine) in and out, larger
+              appliances (fridge, oven) outside only. Ensure water and
+              electricity are on during cleaning.
+            </p>
+
+            <img src="/regular-line.svg" alt="" />
+          </div>
+        </div>
       </div>
     </>
   );
