@@ -195,11 +195,11 @@ export default function ServiceAreas() {
           </div>
 
           <p className={styles.footerNote}>
-            Don't see your area listed? Give us a call at{" "}
+            Don&apos;t see your area listed? Give us a call at{" "}
             <a href="tel:8135762009" className={styles.phoneLink}>
               (813) 576-2009
             </a>{" "}
-            to check if we serve your location. We're always expanding our
+            to check if we serve your location. We&apos;re always expanding our
             service area!
           </p>
         </div>
