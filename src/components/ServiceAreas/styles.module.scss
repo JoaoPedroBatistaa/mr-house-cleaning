@@ -1,0 +1,165 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 15rem;
+  background-color: #ffffff;
+
+  @media (max-width: 1200px) {
+    padding: 4rem 5rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 3rem 2rem;
+  }
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.title {
+  color: #353535;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    font-size: 36px;
+  }
+}
+
+.description {
+  color: #656565;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.areasGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+
+  @media (max-width: 968px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.areaSection {
+  background-color: #fbf6e4;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+  }
+}
+
+.subtitle {
+  color: #353535;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Noto Sans", sans-serif;
+  margin-bottom: 1.5rem;
+  color: #00baa1;
+
+  @media (max-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.areaList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
+  li {
+    color: #656565;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &::before {
+      content: "✓ ";
+      color: #00baa1;
+      font-weight: 600;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.footerNote {
+  color: #656565;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 1.6;
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+.phoneLink {
+  color: #00baa1;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.seeMoreButton {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #00baa1;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Noto Sans", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #009688;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 186, 161, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+

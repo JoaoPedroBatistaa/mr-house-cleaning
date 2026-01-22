@@ -11,7 +11,9 @@ export default function Hero() {
           </p>
 
           <p className={styles.description}>
-            Your trusted choice for cleaning your home!
+            Your trusted choice for professional house cleaning services in the
+            Tampa Bay Area! We provide residential and commercial cleaning
+            solutions you can count on.
           </p>
 
           <div className={styles.buttonsContainer}>

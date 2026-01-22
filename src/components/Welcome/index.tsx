@@ -10,13 +10,20 @@ export default function Hero() {
           </p>
 
           <p className={styles.description}>
-            You deserve a spotless home that s worry-free. At M&R, we re
-            dedicated to making that a reality for you.{" "}
+            You deserve a spotless home that's worry-free. At M&R Home Cleaning
+            Services, we're dedicated to making that a reality for you. Whether
+            you need regular house cleaning, deep cleaning, move-in/move-out
+            services, or post-construction cleaning, our professional team is
+            here to help you maintain a clean, healthy living environment in the
+            Tampa Bay Area.
           </p>
         </div>
 
         <div className={styles.rightContainer}>
-          <img src="/welcome.jpg" alt="" />
+          <img
+            src="/welcome.jpg"
+            alt="Professional house cleaning services in Tampa Bay Area"
+          />
         </div>
       </div>
     </>

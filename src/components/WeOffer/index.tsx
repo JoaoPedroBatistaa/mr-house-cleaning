@@ -13,7 +13,7 @@ export default function Hero() {
 
         <div className={styles.container} id="Home">
           <div className={styles.leftContainer}>
-            <img src="/regular.svg" alt="" />
+            <img src="/regular.svg" alt="Regular house cleaning service" />
 
             <p className={styles.subtitle}>Regular Cleaning</p>
 
@@ -28,7 +28,7 @@ export default function Hero() {
           </div>
 
           <div className={styles.rightContainer}>
-            <img src="/deep-icon.svg" alt="" />
+            <img src="/deep-icon.svg" alt="Deep cleaning service" />
 
             <p className={styles.subtitle}>Deep Cleaning</p>
 
@@ -46,7 +46,7 @@ export default function Hero() {
 
         <div className={styles.container} id="Home">
           <div className={styles.rightContainer}>
-            <img src="/post.svg" alt="" />
+            <img src="/post.svg" alt="Post construction cleaning service" />
 
             <p className={styles.subtitle}>Post Construction</p>
 
@@ -67,7 +67,7 @@ export default function Hero() {
             <img src="/deep-line.svg" alt="" />
           </div>
           <div className={styles.leftContainer}>
-            <img src="/movein.svg" alt="" />
+            <img src="/movein.svg" alt="Move in move out cleaning service" />
 
             <p className={styles.subtitle}>Move In/ Move Out</p>
 

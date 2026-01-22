@@ -5,7 +5,10 @@ export default function Hero() {
     <>
       <div className={styles.container} id="Home">
         <div className={styles.rightContainer}>
-          <img src="/set-us-apart.jpg" alt="" />
+          <img
+            src="/set-us-apart.jpg"
+            alt="What sets M&R Home Cleaning Services apart - Professional cleaning team"
+          />
         </div>
 
         <div className={styles.leftContainer}>
