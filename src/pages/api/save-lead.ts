@@ -2,7 +2,7 @@ import { addDoc, collection } from 'firebase/firestore';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { db } from '../../../firebase';
 
-export default async (req: NextApiRequest, res: NextApiResponse) => {
+const handler = async (req: NextApiRequest, res: NextApiResponse) => {
    if (req.method === 'POST') {
       const { userName, userPhone, userSegment, userEmail, companyName, companyRevenue, employeeCount } = req.body;
 
@@ -27,3 +27,5 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       res.status(405).end(`Método ${req.method} Não Permitido`);
    }
 };
+
+export default handler;

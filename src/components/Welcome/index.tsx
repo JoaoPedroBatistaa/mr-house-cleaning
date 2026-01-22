@@ -10,8 +10,8 @@ export default function Hero() {
           </p>
 
           <p className={styles.description}>
-            You deserve a spotless home that's worry-free. At M&R Home Cleaning
-            Services, we're dedicated to making that a reality for you. Whether
+            You deserve a spotless home that&apos;s worry-free. At M&R Home Cleaning
+            Services, we&apos;re dedicated to making that a reality for you. Whether
             you need regular house cleaning, deep cleaning, move-in/move-out
             services, or post-construction cleaning, our professional team is
             here to help you maintain a clean, healthy living environment in the

@@ -18,8 +18,8 @@ export default function Hero() {
             Since 2016, M&R Home Cleaning Services has been the trusted choice
             for residential and commercial cleaning services in the Tampa Bay Area.
             Founded with the mission to deliver unparalleled quality and a touch
-            of elegance in every service, we've become an essential part of our
-            customers' lives. Our commitment to excellence has made us one of the
+            of elegance in every service, we&apos;ve become an essential part of our
+            customers&apos; lives. Our commitment to excellence has made us one of the
             most reliable cleaning companies serving Tampa, St. Petersburg,
             Clearwater, and surrounding communities.
           </p>
@@ -30,7 +30,7 @@ export default function Hero() {
             At M&R Home Cleaning Services, our mission is simple: to provide a
             more comfortable, worry-free life for our customers through
             high-quality cleaning services. We believe that a clean home is the
-            foundation of a happy, healthy lifestyle, and we're dedicated to
+            foundation of a happy, healthy lifestyle, and we&apos;re dedicated to
             making that a reality for every client we serve.
           </p>
 
