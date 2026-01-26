@@ -6,7 +6,7 @@ export default function Hero() {
       <div className={styles.container} id="Home">
         <div className={styles.rightContainer}>
           <img
-            src="/who.jpg"
+            src="/who.png"
             alt="M&R Home Cleaning Services - Trusted cleaning company since 2016"
           />
         </div>
@@ -16,12 +16,11 @@ export default function Hero() {
 
           <p className={styles.description}>
             Since 2016, M&R Home Cleaning Services has been the trusted choice
-            for residential and commercial cleaning services in the Tampa Bay Area.
+            for residential and commercial cleaning services in Jacksonville, FL.
             Founded with the mission to deliver unparalleled quality and a touch
             of elegance in every service, we&apos;ve become an essential part of our
             customers&apos; lives. Our commitment to excellence has made us one of the
-            most reliable cleaning companies serving Tampa, St. Petersburg,
-            Clearwater, and surrounding communities.
+            most reliable cleaning companies serving Jacksonville, Jacksonville Beach, Atlantic Beach, Neptune Beach, Ponte Vedra, Orange Park, and surrounding communities.
           </p>
 
           <p className={styles.subtitle}>Our Mission</p>
@@ -37,7 +36,7 @@ export default function Hero() {
           <p className={styles.subtitle}>Why Choose M&R?</p>
 
           <p className={styles.description}>
-            With years of experience serving the Tampa Bay Area, we understand
+            With years of experience serving Jacksonville, FL, we understand
             the unique needs of our local community. Our professional team is
             fully insured, bonded, and trained to deliver exceptional results
             every time. We use eco-friendly cleaning products when requested and

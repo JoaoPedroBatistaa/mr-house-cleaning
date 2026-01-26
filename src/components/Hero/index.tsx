@@ -6,14 +6,13 @@ export default function Hero() {
     <>
       <div className={styles.container} id="Home">
         <div className={styles.leftContainer}>
-          <p className={styles.title}>
-            Professional <span>Cleaning</span> Services in your home{" "}
-          </p>
+          <h1 className={styles.title}>
+            Professional <span>House Cleaning</span> Services in Jacksonville, FL{" "}
+          </h1>
 
           <p className={styles.description}>
-            Your trusted choice for professional house cleaning services in the
-            Tampa Bay Area! We provide residential and commercial cleaning
-            solutions you can count on.
+            Your trusted choice for professional house cleaning services in Jacksonville, FL! We provide residential and commercial cleaning
+            solutions you can count on. We proudly serve Jacksonville, Jacksonville Beach, Atlantic Beach, Neptune Beach, Ponte Vedra, Orange Park, and surrounding areas.
           </p>
 
           <div className={styles.buttonsContainer}>

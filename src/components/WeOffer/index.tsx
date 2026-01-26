@@ -15,7 +15,7 @@ export default function Hero() {
           <div className={styles.leftContainer}>
             <img src="/regular.svg" alt="Regular house cleaning service" />
 
-            <p className={styles.subtitle}>Regular Cleaning</p>
+            <p className={styles.subtitle}>Regular Cleaning Services in Jacksonville, FL</p>
 
             <p className={styles.description}>
               Clean kitchen, countertops, exterior of refrigerator, microwave,
@@ -30,7 +30,7 @@ export default function Hero() {
           <div className={styles.rightContainer}>
             <img src="/deep-icon.svg" alt="Deep cleaning service" />
 
-            <p className={styles.subtitle}>Deep Cleaning</p>
+            <p className={styles.subtitle}>Deep Cleaning Services in Jacksonville, FL</p>
 
             <p className={styles.description}>
               Kitchen cleaning including exterior of refrigerator and cabinets,
@@ -48,7 +48,7 @@ export default function Hero() {
           <div className={styles.rightContainer}>
             <img src="/post.svg" alt="Post construction cleaning service" />
 
-            <p className={styles.subtitle}>Post Construction</p>
+            <p className={styles.subtitle}>Post-Construction Cleaning Jacksonville</p>
 
             <p className={styles.description}>
               PACK MIMO (For Empty Homes): Includes blinds, shutters, ceiling
@@ -69,7 +69,7 @@ export default function Hero() {
           <div className={styles.leftContainer}>
             <img src="/movein.svg" alt="Move in move out cleaning service" />
 
-            <p className={styles.subtitle}>Move In/ Move Out</p>
+            <p className={styles.subtitle}>Move-In & Move-Out Cleaning in Jacksonville</p>
 
             <p className={styles.description}>
               PACK PCHD (For Empty & Furnished Homes): Includes blinds,

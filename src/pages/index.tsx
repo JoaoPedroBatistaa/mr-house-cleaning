@@ -14,20 +14,20 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>M&R Home Cleaning Services | Professional House Cleaning Tampa Bay Area</title>
-        <meta name="description" content="Professional residential and commercial cleaning services in Tampa Bay Area. Since 2016, M&R Home Cleaning offers regular cleaning, deep cleaning, move-in/move-out, and post-construction services. Trusted cleaning company serving Tampa, St. Petersburg, Clearwater, and surrounding areas. Get your free quote today!" />
-        <meta name="keywords" content="house cleaning, home cleaning services, professional cleaning, residential cleaning, deep cleaning, move in move out cleaning, post construction cleaning, cleaning services Tampa, cleaning services St. Petersburg, cleaning services Clearwater, maid service, housekeeping, commercial cleaning Tampa Bay" />
+        <title>M&R Home Cleaning Services | House Cleaning in Jacksonville, FL</title>
+        <meta name="description" content="Professional residential and commercial cleaning services in Jacksonville, FL. Deep cleaning, move-in/out, post-construction. Get a free quote today!" />
+        <meta name="keywords" content="house cleaning, home cleaning services, professional cleaning, residential cleaning, deep cleaning, move in move out cleaning, post construction cleaning, cleaning services Jacksonville, cleaning services Jacksonville Beach, cleaning services Atlantic Beach, cleaning services Ponte Vedra, maid service, housekeeping, commercial cleaning Jacksonville FL" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="M&R Home Cleaning Services" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="M&R Home Cleaning Services | Professional House Cleaning Tampa Bay" />
-        <meta property="og:description" content="Professional residential and commercial cleaning services in Tampa Bay Area. Trusted since 2016. Get your free quote today!" />
+        <meta property="og:title" content="M&R Home Cleaning Services | House Cleaning in Jacksonville, FL" />
+        <meta property="og:description" content="Professional residential and commercial cleaning services in Jacksonville, FL. Trusted since 2016. Get your free quote today!" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://mr-house-cleaning.vercel.app" />
         <meta property="og:image" content="https://mr-house-cleaning.vercel.app/hero.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="M&R Home Cleaning Services | Professional House Cleaning" />
-        <meta name="twitter:description" content="Professional residential and commercial cleaning services in Tampa Bay Area. Trusted since 2016." />
+        <meta name="twitter:description" content="Professional residential and commercial cleaning services in Jacksonville, FL. Trusted since 2016." />
         <link rel="icon" href="/icon.svg" />
         <link rel="canonical" href="https://mr-house-cleaning.vercel.app" />
         <script
@@ -49,15 +49,15 @@ export default function Home() {
               },
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: 27.9506,
-                longitude: -82.4572,
+                latitude: 30.3322,
+                longitude: -81.6557,
               },
               areaServed: {
                 "@type": "City",
-                name: "Tampa Bay Area",
+                name: "Jacksonville, FL",
               },
               description:
-                "Professional residential and commercial cleaning services in Tampa Bay Area. Since 2016, M&R Home Cleaning offers regular cleaning, deep cleaning, move-in/move-out, and post-construction services.",
+                "Professional residential and commercial cleaning services in Jacksonville, FL. Since 2016, M&R Home Cleaning offers regular cleaning, deep cleaning, move-in/move-out, and post-construction services.",
               openingHoursSpecification: {
                 "@type": "OpeningHoursSpecification",
                 dayOfWeek: [
