@@ -17,7 +17,7 @@ export default function Hero() {
           <p className={styles.subtitle}>Unmatched Quality: </p>
 
           <p className={styles.description}>
-            We re committed to the highest standards of quality in every service
+            We&apos;re committed to the highest standards of quality in every service
             we offer.
           </p>
 
@@ -38,7 +38,7 @@ export default function Hero() {
           <p className={styles.subtitle}>Transparency: </p>
 
           <p className={styles.description}>
-            Our prices are fair and transparent, with no unpleasant surprises
+            Our prices are fair and transparent, with no unpleasant surprises.
           </p>
         </div>
       </div>

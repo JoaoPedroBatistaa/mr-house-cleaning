@@ -323,8 +323,8 @@ export default function Hero() {
           </p>
 
           <p className={styles.description}>
-            - COMMERCIAL : If you re not sure call to get an estimate (813)
-            576-2009. (FULL OFFICE CLEANING CHECKLIST)
+            - COMMERCIAL : If you&apos;re not sure call to get an estimate (857)
+            204-4715. (FULL OFFICE CLEANING CHECKLIST)
           </p>
 
           <select onChange={handleServiceChange} value={service}>
@@ -385,8 +385,8 @@ export default function Hero() {
 
           <p className={styles.description}>
             This information will be used to contact you about your service. If
-            you re not the one present during the cleaning, provide information
-            on the comments session above.
+            you&apos;re not the one present during the cleaning, provide information
+            on the comments section above.
           </p>
 
           <div className={styles.inputs}>

@@ -40,7 +40,7 @@ export default function Home() {
               image: "https://mr-house-cleaning.vercel.app/hero.jpg",
               "@id": "https://mr-house-cleaning.vercel.app",
               url: "https://mr-house-cleaning.vercel.app",
-              telephone: "+18135762009",
+              telephone: "+18572044715",
               priceRange: "$$",
               address: {
                 "@type": "PostalAddress",

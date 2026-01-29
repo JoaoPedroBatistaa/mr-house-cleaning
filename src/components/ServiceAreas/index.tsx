@@ -154,8 +154,8 @@ export default function ServiceAreas() {
 
           <p className={styles.footerNote}>
             Don&apos;t see your area listed? Give us a call at{" "}
-            <a href="tel:8135762009" className={styles.phoneLink}>
-              (813) 576-2009
+            <a href="tel:8572044715" className={styles.phoneLink}>
+              (857) 204-4715
             </a>{" "}
             to check if we serve your location. We&apos;re always expanding our
             service area!

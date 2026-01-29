@@ -101,6 +101,26 @@
   }
 }
 
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.licenseBadge {
+  width: 8rem;
+  height: auto;
+  max-width: 150px;
+}
+
 .footerMobile {
   display: none;
 }
@@ -243,5 +263,14 @@
     text-align: center;
 
     gap: 3rem;
+
+    .licenseBadge {
+      width: 6rem;
+      max-width: 120px;
+    }
+
+    .footerContent {
+      align-items: center;
+    }
   }
 }
