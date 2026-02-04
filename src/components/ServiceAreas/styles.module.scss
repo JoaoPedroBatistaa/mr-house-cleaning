@@ -51,10 +51,27 @@
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   margin-bottom: 3rem;
+  align-items: stretch;
 
   @media (max-width: 968px) {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+}
+
+.areaCard {
+  background-color: #fbf6e4;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+  .subtitle:not(:first-of-type) {
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
   }
 }
 
@@ -65,6 +82,28 @@
 
   @media (max-width: 768px) {
     padding: 1.5rem;
+  }
+}
+
+.mapWrapper {
+  min-height: 320px;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background-color: #f0f0f0;
+
+  @media (max-width: 968px) {
+    min-height: 280px;
+  }
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  border: 0;
+
+  @media (max-width: 968px) {
+    min-height: 280px;
   }
 }
 

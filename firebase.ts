@@ -22,12 +22,13 @@ import {
 } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBtMYBxAzY1kT3Fy1lK2sEYhb-c5tU7q8s",
-    authDomain: "mr-home-cleaning.firebaseapp.com",
-    projectId: "mr-home-cleaning",
-    storageBucket: "mr-home-cleaning.appspot.com",
-    messagingSenderId: "764129205107",
-    appId: "1:764129205107:web:0d27cdcb193eea51ab0306"
+    apiKey: "AIzaSyCJS8B8KbrJJnwAiZdGVvcx2OPjrWWrGp0",
+    authDomain: "mr-house-80e1e.firebaseapp.com",
+    projectId: "mr-house-80e1e",
+    storageBucket: "mr-house-80e1e.firebasestorage.app",
+    messagingSenderId: "96975545855",
+    appId: "1:96975545855:web:3c31c6d873f6ebdc0673ca",
+    measurementId: "G-LZY8W4HNQ3"
 };
 
 const firebase = initializeApp(firebaseConfig);

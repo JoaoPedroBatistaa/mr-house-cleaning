@@ -87,8 +87,8 @@ export default function Home() {
       <Who></Who>
       <WeOffer></WeOffer>
       <SetUsApart></SetUsApart>
-      <ServiceAreas></ServiceAreas>
       <Form></Form>
+      <ServiceAreas></ServiceAreas>
 
       <Footer></Footer>
     </>

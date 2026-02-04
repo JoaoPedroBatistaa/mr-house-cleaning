@@ -237,7 +237,6 @@ export default function Hero() {
   const handleSubmit = async () => {
     setIsLoading(true);
     try {
-      // Save data to Firestore
       await addDoc(collection(db, "CRM"), {
         service,
         date,
@@ -262,45 +261,10 @@ export default function Hero() {
         total,
       });
 
-      // Send SMS
-      const response = await fetch("/api/sendSms", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          service,
-          date,
-          time,
-          firstName,
-          lastName,
-          email,
-          phone,
-          address,
-          aptSuite,
-          city,
-          state,
-          zipCode,
-          preferredContact,
-          accessInfo,
-          parking,
-          referral,
-          cleaningRecommendation,
-          flexibleTime,
-          comments,
-          selectedPacks,
-          total,
-        }),
-      });
-
-      if (!response.ok) {
-        throw new Error("Failed to send SMS");
-      }
-
-      toast.success("Form submitted and SMS sent successfully!");
+      toast.success("Request received! We'll contact you soon.");
     } catch (error) {
       console.error("Error submitting form: ", error);
-      toast.error("Error submitting form and sending SMS. Please try again.");
+      toast.error("Something went wrong. Please try again.");
     } finally {
       setIsLoading(false);
     }

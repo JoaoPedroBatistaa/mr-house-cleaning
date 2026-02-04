@@ -5,7 +5,7 @@ export default function ServiceAreas() {
   const [showAllCities, setShowAllCities] = useState(false);
   const [showAllNeighborhoods, setShowAllNeighborhoods] = useState(false);
   
-  const initialItemsCount = 12;
+  const initialItemsCount = 6;
   const cities = [
     "Jacksonville",
     "Jacksonville Beach",
@@ -112,7 +112,7 @@ export default function ServiceAreas() {
           </p>
 
           <div className={styles.areasGrid}>
-            <div className={styles.areaSection}>
+            <div className={styles.areaCard}>
               <h3 className={styles.subtitle}>Major Cities</h3>
               <ul className={styles.areaList}>
                 {(showAllCities ? cities : cities.slice(0, initialItemsCount)).map(
@@ -129,9 +129,6 @@ export default function ServiceAreas() {
                   {showAllCities ? "See less" : "See more"}
                 </button>
               )}
-            </div>
-
-            <div className={styles.areaSection}>
               <h3 className={styles.subtitle}>Neighborhoods & Communities</h3>
               <ul className={styles.areaList}>
                 {(showAllNeighborhoods
@@ -149,6 +146,17 @@ export default function ServiceAreas() {
                   {showAllNeighborhoods ? "See less" : "See more"}
                 </button>
               )}
+            </div>
+
+            <div className={styles.mapWrapper}>
+              <iframe
+                title="M&R Home Cleaning Services - Jacksonville, FL"
+                src="https://www.google.com/maps?q=Jacksonville,+FL&output=embed"
+                className={styles.map}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </div>
           </div>
 
