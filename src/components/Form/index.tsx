@@ -234,32 +234,43 @@ export default function Hero() {
     });
   };
 
+  const formPayload = {
+    service,
+    date,
+    time,
+    firstName,
+    lastName,
+    email,
+    phone,
+    address,
+    aptSuite,
+    city,
+    state,
+    zipCode,
+    preferredContact,
+    accessInfo,
+    parking,
+    referral,
+    cleaningRecommendation,
+    flexibleTime,
+    comments,
+    selectedPacks,
+    total,
+  };
+
   const handleSubmit = async () => {
     setIsLoading(true);
     try {
-      await addDoc(collection(db, "CRM"), {
-        service,
-        date,
-        time,
-        firstName,
-        lastName,
-        email,
-        phone,
-        address,
-        aptSuite,
-        city,
-        state,
-        zipCode,
-        preferredContact,
-        accessInfo,
-        parking,
-        referral,
-        cleaningRecommendation,
-        flexibleTime,
-        comments,
-        selectedPacks,
-        total,
+      await addDoc(collection(db, "CRM"), formPayload);
+
+      const sheetsRes = await fetch("/api/save-to-sheets", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formPayload),
       });
+      if (!sheetsRes.ok) {
+        console.warn("Could not save to Google Sheets");
+      }
 
       toast.success("Request received! We'll contact you soon.");
     } catch (error) {
